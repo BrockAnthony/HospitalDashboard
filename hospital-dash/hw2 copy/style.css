@@ -1,0 +1,122 @@
+body {
+	font-family: Geneva;
+}
+
+#header {
+	color: black;
+	display:  flex;
+	flex-direction:  row;
+	width:  100%;
+}
+
+#titles {
+	display: flex;
+	flex-direction: column;
+	width: 87%;
+	line-height: 40%;
+}
+
+#logos {
+	display: flex;
+	flex-direction: column;
+	flex:  0.8;
+}
+
+#body {
+	display:  flex;
+	flex-direction: row;
+	width:  100%;
+}
+
+.col2 {
+	display:  flex;
+	flex-direction: column;
+	width:  50%;
+}
+
+#sect1 {
+	display:  flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: 65px;
+}
+
+#graph1 {
+	margin-left: -38px;
+}
+
+
+#sect2 {
+	display: flex;
+	flex-direction: column;
+	height: 30%;
+	margin-left: 50px;
+	margin-top: -90px;
+	line-height: 10%;
+}
+
+#sect3 {
+	display: flex;
+	flex-direction: column;
+	height: 70%;
+	margin-left: 40px;
+}
+
+#period {
+	width:  20%;
+	align-self: left;
+}
+
+#smoother {
+	width:  5%;
+	align-self: left;
+}
+
+#smoothshow {
+	width: 20%;
+}
+
+#sun_img {
+	height:  230px;
+	margin-left: -40px;
+	align-self: center;
+}
+
+#photoslider {
+	width: 60%;
+	align-self: center;
+
+}
+
+#g1slider {
+	margin-right: 110px;
+	margin-left: 26px;
+}
+
+
+
+.rc-slider-track {
+  background-color: red;
+}
+
+.rc-slider-dot-active {  
+  border-color: red;
+  border: solid 2px red;
+}
+
+.rc-slider-handle {
+  background-color: red;
+  border-color: red;
+}
+
+.rc-slider-handle:hover {
+  border-color: red;
+}
+
+.rc-slider-handle-active:active {
+  border-color: red;
+}
+
+.form-control:focus {
+        box-shadow: 0 0 0 0.2rem rgba(255, 187, 51, 0.25);
+    }
